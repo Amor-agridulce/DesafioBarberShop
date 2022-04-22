@@ -1,0 +1,19 @@
+
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'vendors/bootstrap5/bootstrap.scss';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/nav';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/profile';
+@import 'layout/pagination';
+@import 'layout/footer';
+
+@import 'components/buttons';
+@import 'components/links'

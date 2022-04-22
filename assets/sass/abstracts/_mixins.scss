@@ -1,0 +1,18 @@
+@mixin flex-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin link-family {
+    font-family: $roboto;
+    font-size: $large;
+    font-weight: $light;
+    text-decoration: none;
+}
+
+@mixin style-reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
